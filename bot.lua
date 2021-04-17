@@ -180,7 +180,7 @@ builtin['credits'] = {
 _G.compatcommands = {}
 
 
-_G.credits = "<@267737465152864256> - `Creator`\nRaVen - `Original bot/Idea`\n<https://lua.org> - `Programming Language used for this bot`\n<https://luvit.io/> - `Fork of lua used that adds node-like functions for IO and Web`\n<https://github.com/SinisterRectus/Discordia> - `API/Library used to create this`\n"
+_G.credits = "<@267737465152864256> - `Creator`\n<https://github.com/superpowers04/SuperBot-Public> - Github\nRaVen - `Original bot/Idea`\n<https://lua.org> - `Programming Language used for this bot`\n<https://luvit.io/> - `Fork of lua used that adds node-like functions for IO and Web`\n<https://github.com/SinisterRectus/Discordia> - `API/Library used to create this`\n"
 _G.registeredfuncs = {}
 if not io.open('bot.cfg') then 
 	local config = io.open('bot.cfg','w')
